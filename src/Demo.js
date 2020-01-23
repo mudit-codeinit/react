@@ -15,12 +15,12 @@ class Demo extends Component  {
   render(){
    const Avatar_Array = [{
         id:1,
-        name:"muditdddd",
+        name:"mk",
         work: "Web dev33"
       },
       {
            id:2,
-           name:"Amit",
+           name:"ak",
            work: "Web dev23"
          }
 
@@ -32,8 +32,7 @@ class Demo extends Component  {
     <h1>Hello World {this.props.name}</h1>
     <p>This is test</p>
         {avcard}
-       // <Avatar id="1" name={Avatar_Array[0].name} work="Web dev"  />
-       // <Avatar id="2" name="Amit" work="Web dev2"  />
+        
     </div>
 
   }
